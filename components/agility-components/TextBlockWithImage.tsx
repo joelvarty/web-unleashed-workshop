@@ -67,7 +67,7 @@ const TextBlockWithImage: Module<ITextBlockWithImage> = ({module}) => {
 									{media: "(min-width: 1280px)", width: 800},
 									{media: "(min-width: 640px)", width: 640},
 									//screen less than 640, full width of screen
-									{media: "(max-width: 639px)", width: 640},
+									{media: "(max-width: 639px)", width: 320},
 								]}
 							/>
 						</Link>
@@ -82,7 +82,7 @@ const TextBlockWithImage: Module<ITextBlockWithImage> = ({module}) => {
 								{media: "(min-width: 1280px)", width: 800},
 								{media: "(min-width: 640px)", width: 640},
 								//screen less than 640, full width of screen
-								{media: "(max-width: 639px)", width: 640},
+								{media: "(max-width: 639px)", width: 320},
 							]}
 						/>
 					)}
